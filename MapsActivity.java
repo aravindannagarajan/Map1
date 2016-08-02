@@ -31,7 +31,9 @@ public class MapsActivity extends Fragment implements LocationListener {
     GoogleMap googleMap;
     MapView mapView;
     LocationManager locationManager;
-    TextView locationTv;
+    TextView locationTv2;
+    String demoStr = "";
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
