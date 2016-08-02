@@ -17,6 +17,8 @@ Fragment fr;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String demoStr = "";
+
         fr = new MapsActivity();
         FragmentManager fm = getFragmentManager();
 
