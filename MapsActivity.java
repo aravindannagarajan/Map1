@@ -32,6 +32,8 @@ public class MapsActivity extends Fragment implements LocationListener {
     MapView mapView;
     LocationManager locationManager;
     TextView locationTv2;
+    String demoStr = "";
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
